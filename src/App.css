@@ -23,6 +23,7 @@ body{
 }
 .card{
   width:400px;
+  min-height: 400px;
   /* height:450px; */
   /* border: 2px solid black; */
   padding:30px;
@@ -35,8 +36,10 @@ body{
 .top img{
   width: 80px;
   border: 2px solid #efefef;
-  padding: 5px;
+  /* padding: px; */
   border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
 
 }
 .top{
@@ -77,7 +80,7 @@ font-weight: 300;
 color: #807a7a;
 }
 .middle h2{
-  font-size:25px;
+  font-size:3.5vh;
   font-weight:630;
 }
  .middle button{
@@ -89,15 +92,6 @@ color: #807a7a;
   border:transparent;
   color: rgb(35, 34, 34);
  }
-
-
-
-
-
-
-
-
-
 
 
 .bottom{
